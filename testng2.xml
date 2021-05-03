@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QACart">
+	<listeners>
+		<listener class-name="com.qacart.listners.TestListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Android">
+		<parameter name="deviceName" value="Gawish"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="11"></parameter>
+		<classes>
+			<class name="com.qacart.testCases.LoginTest"></class>
+		</classes>
+	</test>
+</suite>

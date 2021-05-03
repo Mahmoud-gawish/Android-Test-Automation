@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.154 s <<< FAILURE! - in TestSuite
+com.qacart.testCases.LoginTest.loiginTestCase  Time elapsed: 0.47 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy10.proxyClassLookup()
+	at com.qacart.testCases.LoginTest.loiginTestCase(LoginTest.java:15)
+Caused by: java.lang.NoSuchMethodException: jdk.proxy2.$Proxy10.proxyClassLookup()
+	at com.qacart.testCases.LoginTest.loiginTestCase(LoginTest.java:15)
+

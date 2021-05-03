@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-03T14:55:56 EET" name="QACart" finished-at="2021-05-03T14:56:09 EET" duration-ms="12947">
+    <groups>
+    </groups>
+    <test started-at="2021-05-03T14:55:56 EET" name="Android" finished-at="2021-05-03T14:56:09 EET" duration-ms="12947">
+      <class name="com.qacart.testCases.LoginTest">
+        <test-method is-config="true" signature="extrntReprot()[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248]" started-at="2021-05-03T14:55:56 EET" name="extrntReprot" finished-at="2021-05-03T14:55:56 EET" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extrntReprot -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248]" started-at="2021-05-03T14:55:56 EET" name="beforeClass" finished-at="2021-05-03T14:56:04 EET" duration-ms="8380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gawish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BeforeReprotMethod(java.lang.reflect.Method)[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248]" started-at="2021-05-03T14:56:04 EET" name="BeforeReprotMethod" finished-at="2021-05-03T14:56:04 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qacart.testCases.LoginTest.loiginTestCase()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeReprotMethod -->
+        <test-method signature="loiginTestCase()[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248]" started-at="2021-05-03T14:56:04 EET" name="loiginTestCase" finished-at="2021-05-03T14:56:08 EET" duration-ms="3686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loiginTestCase -->
+        <test-method is-config="true" signature="afterReprotMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248]" started-at="2021-05-03T14:56:08 EET" name="afterReprotMethod" finished-at="2021-05-03T14:56:09 EET" duration-ms="838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qacart.testCases.LoginTest.loiginTestCase()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loiginTestCase status=SUCCESS method=LoginTest.loiginTestCase()[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterReprotMethod -->
+        <test-method is-config="true" signature="afterReprot()[pri:0, instance:com.qacart.testCases.LoginTest@28f3b248]" started-at="2021-05-03T14:56:09 EET" name="afterReprot" finished-at="2021-05-03T14:56:10 EET" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterReprot -->
+      </class> <!-- com.qacart.testCases.LoginTest -->
+    </test> <!-- Android -->
+  </suite> <!-- QACart -->
+</testng-results>

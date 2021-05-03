@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QACart]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qacart.listners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Android(failed)" verbose="0">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Gawish"/>
+    <classes>
+      <class name="com.qacart.testCases.LoginTest">
+        <methods>
+          <include name="extrntReprot"/>
+          <include name="loiginTestCase"/>
+          <include name="beforeClass"/>
+          <include name="BeforeReprotMethod"/>
+          <include name="afterReprot"/>
+          <include name="afterReprotMethod"/>
+        </methods>
+      </class> <!-- com.qacart.testCases.LoginTest -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [QACart] -->
